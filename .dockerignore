@@ -1,0 +1,18 @@
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Dockerfile and other sensitive files
+Dockerfile
+*.md
+
+# Ignore build artifacts, logs, and other unnecessary files
+*.log
+*.bak
+*.tmp
+
+# Ignore .idea (if using JetBrains IDE)
+.idea
+
+# Ignore node_modules or other dependency folders (for Node.js projects)
+node_modules
